@@ -18,7 +18,7 @@ export  function Navbar() {
     return (
 
         <div className="flex justify-center items-center h-[100px] md:h-[150px]">
-          <div className="w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed">
+          <div className="w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed z-30">
             
               <div className="pl-[5%] sm:pl-[3%] pr-[3%] text-white  flex items-center justify-between h-full w-full">
 
@@ -53,7 +53,9 @@ export  function Navbar() {
 
 
                         {dropOpen && (
-                          <div className="absolute top-full  font-cmono w-36 h-44 mt-2.5 bg-white/10 backdrop-blur-xs   border-sky-100 rounded-[5px] ">
+                          <div className="absolute top-full z-40 font-cmono w-36 h-44 mt-2.5 bg-black/40
+
+                          backdrop-blur-lg   border-sky-100 rounded-[5px] ">
                             <div className="p-2 flex-col justify-end">
                               <a href="#" className="py-1 flex justify-center">Vision</a>
                               <a href="#" className="flex justify-center py-1">Features</a>
