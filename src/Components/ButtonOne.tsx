@@ -17,7 +17,7 @@ interface sizeVariantInter {
 const sizeVariant :sizeVariantInter = {
   "sm" :"p-1",
   "md" : "md:w-[112px] md:h-[40px] w-[80px] h-[33px]",
-  "lg" : "md:w-[112px] md:h-[40px] w-[100px] h-[43px]"
+  "lg" : "md:w-[112px] md:h-[40px] w-[150px] h-[53px]"
 }
 
 

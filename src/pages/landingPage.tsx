@@ -61,7 +61,7 @@ export  function LandingPage() {
                 
                 
                     <div className="  flex justify-center mt-6">
-                          <ButtonOne color="black/25"  rounded="md" size="lg" text="Try It Free" border_color="white" onClick={()=>{}} />
+                          <ButtonOne color="black"  rounded="md" size="lg" text="Try It Free" border_color="white" onClick={()=>{}} />
                     </div>
 
                 </div>
