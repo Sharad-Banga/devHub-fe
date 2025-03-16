@@ -1,6 +1,6 @@
 
 import './App.css'
-// import { ButtonOne } from './Components/ButtonOne'
+// import { ButtonOne } from './Components/ButtonOne' 
 import { LandingPage } from './pages/landingPage'
 
 function App() {

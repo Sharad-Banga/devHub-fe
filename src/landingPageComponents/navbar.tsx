@@ -9,9 +9,9 @@ export  function Navbar() {
 
   const [dropOpen , setDropOpen] = useState(false);
 
-  // function signInFxn(){
+  function signInFxn(){
 
-  // }
+  }
 
   useEffect(() => {
     if (dropOpen) {
@@ -38,7 +38,7 @@ export  function Navbar() {
         <div className=" flex justify-center items-center h-[100px] md:h-[150px]">
           <div className=" w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed ">
             
-              <div className="pl-[5%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full">
+              <div className="pl-[5%] pr-[3%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full">
 
                     <div className="branding flex gap-2 items-center h-full">
                         <div className="logo">
@@ -49,7 +49,7 @@ export  function Navbar() {
                         </div>
                     </div>
 
-                    {/* <div className="links w-[50%] sm:flex justify-evenly font-cmono sm:text-base md:text-lg lg:text-xl hidden ">
+                    <div className="links w-[50%] sm:flex justify-evenly font-cmono sm:text-base md:text-lg lg:text-xl hidden ">
                         <a href="">Vision</a>
                         <a href="">Features</a>
                         <a href="">Pricing</a>
@@ -59,7 +59,7 @@ export  function Navbar() {
 
                     <div className="signInButton hidden sm:flex">
                         <ButtonOne color="black/10"  rounded="md" size="md" text="Sign In" border_color="white" onClick={signInFxn} />
-                    </div>  */}
+                    </div> 
 
                     <div  className="dropdown flex justify-end  sm:hidden cursor-pointer  w-44 h-60 mt-52 ">
 
