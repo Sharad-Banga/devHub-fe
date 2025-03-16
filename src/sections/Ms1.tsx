@@ -10,13 +10,13 @@ export const Ms1 =()=>{
 
 </div>
 
-<div className="text-white absolute font-normal flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px] mt-5   w-[100vw] font-dela-gothic text text-nowrap z-10   ">
+<div className="text-white absolute font-normal flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px] mt-5 select-none  w-[100vw] font-dela-gothic text text-nowrap z-10   ">
 
     <div className="flex justify-center"> ONE &nbsp; STOP </div>
 
     <div className="flex justify-center  w-full text-[90%]"> FOR &nbsp; DEVELOPERS</div>
 
-  <div className="mt-4 text-[15px] font-cmono  flex justify-center">
+  <div className="mt-4 select-none text-[15px] font-cmono  flex justify-center">
     Be Productive with devHub tools.
   </div>
   

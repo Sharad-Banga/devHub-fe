@@ -15,7 +15,7 @@ export const S1 = () =>{
 </div>
 
 
-<div className="text-white absolute font-extrabold flex-col justify-between  sm:h-[40vh] text-[25px] md:text-[60px]   w-[100vw] font-dela-gothic text text-nowrap   ">
+<div className="text-white absolute font-extrabold flex-col justify-between  sm:h-[40vh] text-[25px] md:text-[60px] select-none  w-[100vw] font-dela-gothic text text-nowrap   ">
 
    <div className="flex justify-center"> ONE &nbsp; STOP </div>
    

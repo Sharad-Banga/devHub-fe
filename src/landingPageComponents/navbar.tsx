@@ -44,12 +44,12 @@ export  function Navbar() {
                         <div className="logo">
                           <Logo/>
                         </div>
-                        <div className="logoName  sm:block text-[17px] font-yatra">
+                        <div className="logoName select-none sm:block text-[17px] font-yatra">
                           devHub
                         </div>
                     </div>
 
-                    <div className="links w-[50%] sm:flex justify-evenly font-cmono sm:text-base md:text-lg lg:text-xl hidden ">
+                    <div className="links w-[50%] sm:flex justify-evenly font-cmono sm:text-base md:text-lg lg:text-xl select-none hidden ">
                         <a href="">Vision</a>
                         <a href="">Features</a>
                         <a href="">Pricing</a>
@@ -82,7 +82,7 @@ export  function Navbar() {
         </div>
 
         {dropOpen && (
-          <div className="relative  top-full z-40 font-cmono w-[90vw] h-[90vh] mt-2.5 bg-black/15
+          <div className="relative select-none  top-full z-40 font-cmono w-[90vw] h-[90vh] mt-2.5 bg-black/15
             text-white text-[35px]
           backdrop-blur-sm    rounded-[5px] ">
             <div className="p-2 flex-col justify-end">
