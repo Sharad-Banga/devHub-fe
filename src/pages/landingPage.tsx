@@ -45,8 +45,9 @@ export  function LandingPage() {
             </div>
 
             
+            {/* mobile */}
 
-           <div className="z-1 flex justify-center mt-3 sm:hidden">
+          <div className="z-1 flex justify-center mt-8 sm:hidden">
                 <div className=" mt-9 h-[150px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-360 ">
 
                 </div>
@@ -60,7 +61,7 @@ export  function LandingPage() {
                 
                 
                     <div className="  flex justify-center mt-6">
-                          <ButtonOne color="white/20"  rounded="md" size="lg" text="Try It Free" border_color="white" onClick={()=>{}} />
+                          <ButtonOne color="black/25"  rounded="md" size="lg" text="Try It Free" border_color="white" onClick={()=>{}} />
                     </div>
 
                 </div>
@@ -68,7 +69,7 @@ export  function LandingPage() {
                 
 
 
-           </div>
+          </div>
 
           
            
