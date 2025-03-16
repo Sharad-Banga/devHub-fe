@@ -52,7 +52,7 @@ export  function LandingPage() {
 
                 </div>
 
-                <div className="text-white absolute font-extrabold flex-col justify-between  sm:h-[40vh] text-[190%] md:text-[60px]   w-[100vw] font-dela-gothic text text-nowrap z-10   ">
+                <div className="text-white absolute font-extrabold flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px]   w-[100vw] font-dela-gothic text text-nowrap z-10   ">
 
                     <div className="flex justify-center"> ONE &nbsp; STOP </div>
 
