@@ -1,24 +1,42 @@
-import { useState } from "react";
-import { ButtonOne } from "../Components/ButtonOne";
+import { useEffect, useState } from "react";
+// import { ButtonOne } from "../Components/ButtonOne";
 import { Bars } from "../icons/Bars";
 import { Logo } from "../icons/Logo";
 import { Cross } from "../icons/Cross";
+import { ButtonOne } from "../Components/ButtonOne";
 
 export  function Navbar() {
 
   const [dropOpen , setDropOpen] = useState(false);
 
-  function signInFxn(){
+  // function signInFxn(){
 
-  }
+  // }
+
+  useEffect(() => {
+    if (dropOpen) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    };
+  }, [dropOpen]);
 
 
 
 
     return (
 
-        <div className="flex justify-center items-center h-[100px] md:h-[150px]">
-          <div className="w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed z-30">
+      < div className="">
+
+        <div className=" flex justify-center items-center h-[100px] md:h-[150px]">
+          <div className=" w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed ">
             
               <div className="pl-[5%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full">
 
@@ -31,17 +49,17 @@ export  function Navbar() {
                         </div>
                     </div>
 
-                    <div className="links w-[50%] sm:flex justify-evenly font-cmono sm:text-base md:text-lg lg:text-xl hidden ">
+                    {/* <div className="links w-[50%] sm:flex justify-evenly font-cmono sm:text-base md:text-lg lg:text-xl hidden ">
                         <a href="">Vision</a>
                         <a href="">Features</a>
                         <a href="">Pricing</a>
                         <a href="">Blog</a>
                         <a href="">Team</a>
-                    </div>
+                    </div> 
 
                     <div className="signInButton hidden sm:flex">
                         <ButtonOne color="black/10"  rounded="md" size="md" text="Sign In" border_color="white" onClick={signInFxn} />
-                    </div>
+                    </div>  */}
 
                     <div  className="dropdown flex justify-end  sm:hidden cursor-pointer  w-44 h-60 mt-52 ">
 
@@ -52,29 +70,45 @@ export  function Navbar() {
 
 
 
-                        {dropOpen && (
-                          <div className="absolute top-full z-40 font-cmono w-[100vw] h-[100vh] mt-2.5 bg-black/90  
-
-                          backdrop-blur-lg   border-sky-100 rounded-[5px] ">
-                            <div className="p-2 flex-col justify-end">
-                              <a href="#" className="py-1 flex justify-center">Vision</a>
-                              <a href="#" className="flex justify-center py-1">Features</a>
-                              <a href="#" className="flex justify-center py-1">Pricing</a>
-                              <a href="#" className="flex justify-center py-1">Blog</a>
-                              <a href="#" className="flex justify-center py-1">Team</a>
-                            </div>
-                          </div>
-                        )}
+                        
                       
                         
                     </div>
-
-
 
 
               </div>
 
           </div>
         </div>
+
+        {dropOpen && (
+          <div className="relative  top-full z-40 font-cmono w-[90vw] h-[90vh] mt-2.5 bg-black/15
+            text-white text-[35px]
+          backdrop-blur-sm    rounded-[5px] ">
+            <div className="p-2 flex-col justify-end">
+              <a href="#" className="flex justify-end py-1 ml-5">Vision</a>
+              <a href="#" className="flex justify-end py-1 ml-5">Features</a>
+              <a href="#" className="flex justify-end py-1 ml-5">Pricing</a>
+              <a href="#" className="flex justify-end py-1 ml-5">Blog</a>
+              <a href="#" className="flex justify-end py-1 ml-5">Team</a>
+
+
+
+              
+            </div>
+
+            <br />
+
+            <div className=" flex justify-center mt-6 ml-7 ">
+              <ButtonOne color="white"  rounded="lg" size="lg" text="Try It Free" border_color="white"   onClick={()=>{}} />
+            </div>
+
+            
+          </div>
+
+
+        )}
+
+      </ div>
     )
 }

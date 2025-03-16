@@ -6,7 +6,7 @@ export const Ms1 =()=>{
     <>
       <div className="z-1 flex justify-center mt-8 sm:hidden">
 
-<div className=" mt-0 h-[250px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-180 ">
+<div className=" mt-0 h-[250px] w-[90vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-180 ">
 
 </div>
 
