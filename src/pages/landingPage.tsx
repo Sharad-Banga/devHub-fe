@@ -3,7 +3,7 @@ import { Navbar } from "../landingPageComponents/navbar";
 
 export  function LandingPage() {
     return (
-        <div className="bg-black w-screen  h-screen bg-[url('./images/mob-bg-2.png')] bg-no-repeat bg-cover bg-center  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top"  >
+        <div className="bg-black w-screen  h-screen bg-[url('./images/mob-bg-2.png') opacity-20] bg-no-repeat bg-cover bg-center  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top"  >
 
           <Navbar />
           <br />
