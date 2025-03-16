@@ -48,7 +48,7 @@ export  function LandingPage() {
             {/* mobile */}
 
           <div className="z-1 flex justify-center mt-8 sm:hidden">
-                <div className=" mt-9 h-[150px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-360 ">
+                <div className=" mt-9 h-[150px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-90 ">
 
                 </div>
 
