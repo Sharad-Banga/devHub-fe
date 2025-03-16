@@ -26,7 +26,7 @@ const sizeVariant :sizeVariantInter = {
 export const ButtonOne =(props:ButtonOneInter)=>{
   return(
     <>
-          <div className={`bg-${props.color} ${sizeVariant[props.size]} flex justify-center items-center border-${props.border_color} border-[1px] rounded-md font-roboto text-[13px] sm:text-[14px] md:text-[17px]  cursor-pointer`} onClick={props.onClick}  >
+          <div className={`bg-${props.color} ${sizeVariant[props.size]} flex justify-center items-center border-${props.border_color} border-[1px] rounded-md font-roboto text-[13px] sm:text-[14px] md:text-[17px]  cursor-pointer text-white`} onClick={props.onClick}  >
               {props.text}
           </div>
     </>

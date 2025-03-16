@@ -1,8 +1,12 @@
+import { useState } from "react";
 import { ButtonOne } from "../Components/ButtonOne";
 import { Bars } from "../icons/Bars";
 import { Logo } from "../icons/Logo";
+import { Cross } from "../icons/Cross";
 
 export  function Navbar() {
+
+  const [dropOpen , setDropOpen] = useState(false);
 
   function signInFxn(){
 
@@ -39,9 +43,31 @@ export  function Navbar() {
                         <ButtonOne color="black/10"  rounded="md" size="md" text="Sign In" border_color="white" onClick={signInFxn} />
                     </div>
 
-                    <div className="dropdown flex sm:hidden">
-                        <Bars/>
+                    <div  className="dropdown flex justify-end  sm:hidden cursor-pointer  w-44 h-60 mt-52">
+
+
+
+                        { !dropOpen && <div onClick={()=>setDropOpen(a=>!a)} className="flex justify-end pt-1"><Bars/></div>}
+                        { dropOpen &&<div onClick={()=>setDropOpen(a=>!a)} className="flex justify-end pt-1"> <Cross/> </div>}
+
+
+
+                        {dropOpen && (
+                          <div className="absolute top-full  font-cmono w-36 h-44 mt-2.5 bg-white/10 backdrop-blur-xs   border-sky-100 rounded-[5px] ">
+                            <div className="p-2 flex-col justify-end">
+                              <a href="#" className="py-1 flex justify-center">Vision</a>
+                              <a href="#" className="flex justify-center py-1">Features</a>
+                              <a href="#" className="flex justify-center py-1">Pricing</a>
+                              <a href="#" className="flex justify-center py-1">Blog</a>
+                              <a href="#" className="flex justify-center py-1">Team</a>
+                            </div>
+                          </div>
+                        )}
+                      
+                        
                     </div>
+
+
 
 
               </div>

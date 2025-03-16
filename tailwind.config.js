@@ -11,6 +11,7 @@ export default {
         roboto: ["Roboto", "sans-serif"],
         cmono: ['Cutive Mono', 'monospace'],
         yatra: ['Yatra One','sans-serif'],
+        'dela-gothic': ['Dela Gothic One', 'sans-serif'],
       },
 
     },
