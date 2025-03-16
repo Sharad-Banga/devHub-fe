@@ -3,7 +3,7 @@ import { Navbar } from "../landingPageComponents/navbar";
 
 export  function LandingPage() {
     return (
-        <div className="bg-black w-screen h-screen bg-[url('./images/mob-bg.png')]  sm:bg-[url('./images/blue-gradii.png')] bg-cover bg-left-top"  >
+        <div className="bg-black w-screen h-screen bg-[url('./images/mob-bg.png')] bg-no-repeat bg-contain  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover bg-left-top"  >
 
           <Navbar />
           <br />
@@ -48,7 +48,7 @@ export  function LandingPage() {
             {/* mobile */}
 
           <div className="z-1 flex justify-center mt-8 sm:hidden">
-                <div className=" mt-9 h-[180px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-90 ">
+                <div className=" mt-4 h-[220px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-90 ">
 
                 </div>
 
