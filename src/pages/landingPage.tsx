@@ -48,11 +48,11 @@ export  function LandingPage() {
             {/* mobile */}
 
           <div className="z-1 flex justify-center mt-8 sm:hidden">
-                <div className=" mt-4 h-[220px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-90 ">
+                <div className=" mt-4 h-[220px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg  ">
 
                 </div>
 
-                <div className="text-white absolute font-extrabold flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px]   w-[100vw] font-dela-gothic text text-nowrap z-10   ">
+                <div className="text-white absolute font-extrabold flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px] mt-8   w-[100vw] font-dela-gothic text text-nowrap z-10   ">
 
                     <div className="flex justify-center"> ONE &nbsp; STOP </div>
 
