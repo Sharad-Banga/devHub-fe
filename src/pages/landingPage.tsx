@@ -3,7 +3,7 @@ import { Navbar } from "../landingPageComponents/navbar";
 
 export  function LandingPage() {
     return (
-        <div className="bg-black w-screen h-screen bg-[url('./images/mob-bg.png')] bg-no-repeat bg-contain  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover bg-left-top"  >
+        <div className="bg-black w-screen  h-screen bg-[url('./images/mob-bg-2.png')] bg-no-repeat bg-cover bg-center  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top"  >
 
           <Navbar />
           <br />
@@ -58,9 +58,9 @@ export  function LandingPage() {
 
                     <div className="flex justify-center  w-full text-[90%]"> FOR &nbsp; DEVELOPERS</div>
                 
+                  
                 
-                
-                    <div className="  flex justify-center mt-6">
+                    <div className="  flex justify-center mt-8">
                           <ButtonOne color="black"  rounded="lg" size="lg" text="Try It Free" border_color="white" onClick={()=>{}} />
                     </div>
 
