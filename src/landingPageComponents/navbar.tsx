@@ -20,13 +20,13 @@ export  function Navbar() {
         <div className="flex justify-center items-center h-[100px] md:h-[150px]">
           <div className="w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed z-30">
             
-              <div className="pl-[5%] sm:pl-[3%] pr-[3%] text-white  flex items-center justify-between h-full w-full">
+              <div className="pl-[5%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full">
 
                     <div className="branding flex gap-2 items-center h-full">
                         <div className="logo">
                           <Logo/>
                         </div>
-                        <div className="logoName  hidden sm:block text-[20px] font-yatra">
+                        <div className="logoName  sm:block text-[17px] font-yatra">
                           devHub
                         </div>
                     </div>
@@ -43,17 +43,17 @@ export  function Navbar() {
                         <ButtonOne color="black/10"  rounded="md" size="md" text="Sign In" border_color="white" onClick={signInFxn} />
                     </div>
 
-                    <div  className="dropdown flex justify-end  sm:hidden cursor-pointer  w-44 h-60 mt-52">
+                    <div  className="dropdown flex justify-end  sm:hidden cursor-pointer  w-44 h-60 mt-52 ">
 
 
 
-                        { !dropOpen && <div onClick={()=>setDropOpen(a=>!a)} className="flex justify-end pt-1"><Bars/></div>}
-                        { dropOpen &&<div onClick={()=>setDropOpen(a=>!a)} className="flex justify-end pt-1"> <Cross/> </div>}
+                        { !dropOpen && <div onClick={()=>setDropOpen(a=>!a)} className="flex justify-end pt-1 pr-[3%]"><Bars/></div>}
+                        { dropOpen &&<div onClick={()=>setDropOpen(a=>!a)} className="flex justify-end pt-1 pr-[3%]"> <Cross/> </div>}
 
 
 
                         {dropOpen && (
-                          <div className="absolute top-full z-40 font-cmono w-36 h-44 mt-2.5 bg-black/40
+                          <div className="absolute top-full z-40 font-cmono w-[100vw] h-[100vh] mt-2.5 bg-black/90  
 
                           backdrop-blur-lg   border-sky-100 rounded-[5px] ">
                             <div className="p-2 flex-col justify-end">
