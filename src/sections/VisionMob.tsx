@@ -10,7 +10,7 @@ export const VisionMob =()=>{
 
           
 
-          <div className="bg-[url('./images/vision_img.png')]  bg-center   w-[80vw] h-[75%] rounded-md flex-row">
+          <div className="bg-[url('./images/vision_img.png')]  bg-center   w-[80vw] h-[80%] rounded-md flex-row">
           
 
 
@@ -27,7 +27,7 @@ export const VisionMob =()=>{
 
                     </div>
 
-                    <div className="text-white font-cmono flex-col text-wrap items-center text-[4.5vw] w-[90% ] flex justify-center mt-7  h-16  ">
+                    <div className="text-white font-cmono flex-col text-wrap items-center text-[15px] w-[90% ] flex justify-center mt-7  h-16  ">
                       
                       {/* <div className="hidden xs:block">
                         Our mission is to create a seamless environment where developers
