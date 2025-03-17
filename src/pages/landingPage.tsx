@@ -2,13 +2,14 @@
 import { Navbar } from "../landingPageComponents/navbar";
 import { Ms1 } from "../sections/Ms1";
 import { VisionMob } from "../sections/VisionMob";
+import { Features } from "../sections_pc/Features";
 // import { VisionMob } from "../sections/visionMob";
 import { S1 } from "../sections_pc/S1";
 import { VisionPc } from "../sections_pc/VisionPc";
 
 export  function LandingPage() {
     return (
-        <div className="w-full bg-current bg-no-repeat bg-cover bg-center  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top "  >
+        <div className="w-full bg-current bg-no-repeat bg-cover bg-fixed  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top "  >
 
               
               <Navbar />
@@ -40,7 +41,7 @@ export  function LandingPage() {
             <VisionPc/>
 
           
-           
+           <Features/>
             
 
          
