@@ -33,7 +33,7 @@ export  function Navbar() {
 
     return (
 
-      < div className="z-50 fixed w-screen ">
+      < div className="z-50 fixed w-full ">
 
         <div className=" flex justify-center items-center h-[100px] md:h-[150px] ">
           <div className=" w-[90vw] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-lg bg-white/10 border-white/10 border-[0.5px] rounded-[15px] fixed ">
