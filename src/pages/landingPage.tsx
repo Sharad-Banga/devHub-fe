@@ -25,7 +25,7 @@ export  function LandingPage() {
             
             {/* mobile s1 */}
             <Ms1 />
-
+          
 
             <VisionMob/>
           
