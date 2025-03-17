@@ -37,7 +37,7 @@ export  function Navbar() {
 
         <div className=" flex justify-center items-center h-[100px] md:h-[150px]">
           <div className=" w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed ">
-            
+             
               <div className="pl-[5%] pr-[3%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full">
 
                     <div className="branding flex gap-2 items-center h-full">
@@ -97,9 +97,7 @@ export  function Navbar() {
               
             </div>
 
-            <div className="h-[8%]">
-
-            </div>
+            <br />
 
             <div className=" flex justify-center mt-6 ml-7 ">
               <ButtonOne color="white"  rounded="lg" size="lg" text="Try It Free" border_color="white"   onClick={()=>{}} />
