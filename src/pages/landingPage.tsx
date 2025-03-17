@@ -1,6 +1,7 @@
 // import { ButtonOne } from "../Components/ButtonOne";
 import { Navbar } from "../landingPageComponents/navbar";
 import { Ms1 } from "../sections/Ms1";
+import { VisionMob } from "../sections/visionMob";
 import { S1 } from "../sections_pc/S1";
 
 export  function LandingPage() {
@@ -24,6 +25,8 @@ export  function LandingPage() {
             {/* mobile s1 */}
             <Ms1 />
 
+
+            <VisionMob/>
           
            
             
