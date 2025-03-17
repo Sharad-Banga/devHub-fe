@@ -4,7 +4,7 @@ import { ButtonOne } from "../Components/ButtonOne"
 export const Ms1 =()=>{
   return(
     <>
-      <div className="z-1 flex justify-center mt-8 sm:hidden">
+      <div className=" flex justify-center mt-40  sm:hidden">
 
         <div className=" mt-0 h-[260px] w-[80vw] bg-[url('./images/rainbow-gradii.png')] bg-cover bg-center bg-no-repeat rounded-lg rotate-180 flex  justify-center">
 
@@ -15,7 +15,7 @@ export const Ms1 =()=>{
 
 
 
-        <div className="text-white absolute font-normal flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px] mt-5 select-none  w-[100vw] font-dela-gothic text text-nowrap z-10  rotate-180 ">
+        <div className="text-white absolute font-normal flex-col justify-between  sm:h-[40vh] text-[200%] md:text-[60px] mt-5 select-none  w-[100vw] font-dela-gothic text text-nowrap   rotate-180 ">
 
               <div className="flex justify-center"> ONE &nbsp; STOP </div>
 

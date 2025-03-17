@@ -7,9 +7,11 @@ import { S1 } from "../sections_pc/S1";
 
 export  function LandingPage() {
     return (
-        <div className="bg-black w-screen  h-vh bg-[url('./images/mob-bg-2.png') opacity-20] bg-no-repeat bg-cover bg-center  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top"  >
+        <div className="sm:w-screen bg-current bg-no-repeat bg-cover bg-center  sm:bg-[url('./images/blue-gradii.png')] sm:bg-cover sm:bg-left-top "  >
 
+              <div className="z-50">
               <Navbar />
+              </div>
               <br />
 
 
@@ -28,6 +30,9 @@ export  function LandingPage() {
 
 
             <VisionMob/>
+            <VisionMob/>
+            <VisionMob/>
+
           
            
             

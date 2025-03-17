@@ -33,12 +33,12 @@ export  function Navbar() {
 
     return (
 
-      < div className="">
+      < div className="z-50 fixed w-screen ">
 
-        <div className=" flex justify-center items-center h-[100px] md:h-[150px]">
-          <div className=" w-[90%] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-xs bg-white/10 border-white/15 border-[0.5px] rounded-[15px] fixed ">
+        <div className=" flex justify-center items-center h-[100px] md:h-[150px] ">
+          <div className=" w-[90vw] h-[45px] sm:h-[55px] md:h-[65px] backdrop-blur-lg bg-white/10 border-white/10 border-[0.5px] rounded-[15px] fixed ">
              
-              <div className="pl-[5%] pr-[3%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full">
+              <div className="pl-[5%] pr-[3%] sm:pl-[3%]  text-white  flex items-center justify-between h-full w-full  ">
 
                     <div className="branding flex gap-2 items-center h-full">
                         <div className="logo">
@@ -82,9 +82,9 @@ export  function Navbar() {
         </div>
 
         {dropOpen && (
-          <div className="relative select-none  top-full z-40 font-cmono w-[90vw] h-[90vh] mt-2.5 bg-black/15
+          <div className="relative select-none  top-full z-40 font-cmono w-[100vw] h-[95vh]  bg-black/95  pr-10
             text-white text-[35px]
-          backdrop-blur-sm    rounded-[5px] ">
+          backdrop-blur-lg    rounded-[5px] ">
             <div className="p-2 flex-col justify-end">
               <a href="#" className="flex justify-end py-1 ml-5">Vision</a>
               <a href="#" className="flex justify-end py-1 ml-5">Features</a>
