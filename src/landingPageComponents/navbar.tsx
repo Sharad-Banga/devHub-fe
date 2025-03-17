@@ -97,7 +97,9 @@ export  function Navbar() {
               
             </div>
 
-            <br />
+            <div className="h-[8%]">
+
+            </div>
 
             <div className=" flex justify-center mt-6 ml-7 ">
               <ButtonOne color="white"  rounded="lg" size="lg" text="Try It Free" border_color="white"   onClick={()=>{}} />
