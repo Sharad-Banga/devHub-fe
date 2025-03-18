@@ -17,7 +17,85 @@ export const Features = () => {
               </div>
 
 
-              <div>
+              <div className=" h-[65%] mt-4 flex justify-evenly">
+
+                  <div className="h-full flex-col w-[270px] bg-black rounded-md border-gray-500 border-[0.5px]">
+
+                      <div className=" h-[60%] w-full bg  pt-[20%]">
+
+                        <div className="bg-[url('./images/ShortUrl.png')] bg-cover  h-[100px]">
+
+                        </div>
+
+                      </div>
+                      <div className=" h-[40%] w-full">
+
+                            <div className=" flex items-center pl-4 font-geist font-semibold text-[22px] h-[40%] text-white ">
+                              Short URL
+                            </div>
+
+                            <div className=" font-cmono  text-[17px] h-[60%] text-gray-300 flex-col  pl-4 pt-2  w-full">
+                               <div>
+                                  <div >Create and manage</div>
+                                  <div>short links with ease.</div>
+                               </div>
+                            </div>
+                      </div>
+
+                  </div>
+
+                  <div className="h-full w-[270px] bg-black rounded-md border-gray-500 border-[0.5px]">
+
+                        <div className=" h-[60%] w-full bg  pt-[20%]">
+
+                            <div className="bg-[url('./images/CodeSnippit.png')] bg-cover  h-[100px]">
+
+                            </div>
+
+                        </div>
+                        <div className=" h-[40%] w-full">
+
+                              <div className=" flex items-center pl-4 font-geist font-semibold text-[22px] h-[40%] text-white ">
+                              Share Code Snippet                              </div>
+
+                              <div className=" font-cmono  text-[17px] h-[60%] text-gray-300 flex-col  pl-4 pt-2  w-full">
+                                <div>
+                                    <div >Generate aesthetically</div>
+                                    <div>pleasing images of code</div>
+
+                                    
+
+                                </div>
+                              </div>
+                        </div>
+
+                  </div>
+
+                  <div className="h-full w-[270px] bg-black rounded-md border-gray-500 border-[0.5px]">
+
+
+                        <div className=" h-[60%] w-full  pl-[20%]  pt-[16%]">
+
+                            <div className="bg-[url('./images/MockApi.png')]  bg-contain bg-no-repeat  h-[150px]">
+
+                            </div>
+
+                        </div>
+                      <div className=" h-[40%] w-full">
+
+                            <div className=" flex items-center pl-4 font-geist font-semibold text-[22px] h-[40%] text-white ">
+                              Mock API
+                            </div>
+
+                            <div className=" font-cmono  text-[17px] h-[60%] text-gray-300 flex-col  pl-4 pt-2  w-full">
+                              <div>
+                                  <div >The tool to quickly create</div>
+                                  <div>temporary API’s for FE.</div>
+                              </div>
+                            </div>
+                      </div>
+
+                  </div>
 
               </div>
 

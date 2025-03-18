@@ -12,6 +12,7 @@ export default {
         cmono: ['Cutive Mono', 'monospace'],
         yatra: ['Yatra One','sans-serif'],
         'dela-gothic': ['Dela Gothic One', 'sans-serif'],
+        geist: ['Inter', 'sans-serif'],
       },
 
     },
